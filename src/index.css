@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  #app-header,
+  #letter-form-column,
+  #toggle-edit-mode,
+  #regenerate-button,
+  #copy-letter-button,
+  #download-letter-button,
+  #print-letter-button {
+    display: none !important;
+  }
+  #printable-resignation-letter {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
